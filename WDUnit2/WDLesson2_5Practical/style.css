@@ -32,6 +32,10 @@ p {
   margin: 20px;
 }
 
+.image-container{
+  display: inline-block
+}
+
 /* Challenge 11: Change the radius of the border to 6px and height to 200px for all images inside of all 
                  elements with a class of gallery 
 */.gallery img {
@@ -44,7 +48,7 @@ p {
 /* Challenge 12: When the visitor moves their mouse over images inside of the element with an id of firstGallery,
                  apply some type of styling using the filter( ) effect
 */#firstGallery .image-container:hover img {
-  filter: grayscale(0%);;
+  filter: grayscale(0%);
 }
 
 /* Challenge 13: When the visitor moves their mouse over images inside of the element with an id of secondGallery,
