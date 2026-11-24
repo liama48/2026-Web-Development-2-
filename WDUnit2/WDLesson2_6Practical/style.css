@@ -1,37 +1,46 @@
-nav{
-  padding:5px
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  background-color: lightgray;
 }
-nav a{
-  color:black;
-  margin:0 10px 0 10px;
-  display:inline-block;
-  width:20%;
-  text-align:center;
+
+nav a {
+  color: black;
+  padding: 5px;
 }
 
 /* Challenge 7: Make the font for all elements Arial */
-*{
+* {
   font-family: Arial;
 }
+
 /* Challenge 8: Remove the underline for all hyperlinks */
-a{
+a {
   text-decoration: none;
 }
 
 /* Challenge 9: Change the bottom border of the hyperlinks in the <nav> element to 2px solid black when the visitor hovers over it */
-nav a:hover{
-border-bottom: 2px solid black;
+nav a:hover {
+  border-bottom: 2px solid black;
 }
+
 /* Challenge 10: Change the background color to blue and the text to white for elements with an class of "banner" */
-.banner{
+.banner {
   background-color: blue;
-  color:white;
+  color: white;
   text-align: center;
+  padding: 20px;
 }
+
 /* Challenge 11: Make the font size bigger and the color of the text to blue for elements with a class of "main" */
-.main{
+.main {
   font-size: 20px;
-  color:blue;
-  
+  color: blue;
+  padding: 20px;
+  border: 2px solid blue;
+  margin-top: 20px;
 }
+
+
 
